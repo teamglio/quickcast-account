@@ -1,0 +1,22 @@
+{
+  "name": "quickcast-account",
+  "version": "0.0.0",
+  "description": "quickcast-account =================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teamglio/quickcast-account.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teamglio/quickcast-account/issues"
+  },
+  "homepage": "https://github.com/teamglio/quickcast-account",
+  "devDependencies": {
+    "gulp": "^3.8.7"
+  }
+}
