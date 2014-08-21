@@ -19,5 +19,8 @@
   ],
   "dependencies": {
     "bootstrap": "~3.2.0"
+  },
+  "devDependencies": {
+    "angular": "~1.2.22"
   }
 }
