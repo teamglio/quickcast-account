@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="QuickcastAccount">
   <head>
     <title>Quickcast</title>
+    <script type="text/javascript" src="assets/js/angular.js"></script>
+    <script type="text/javascript" src="assets/js/angular/angular-addons.js"></script>
+    <script type="text/javascript" src="assets/js/vendors.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/controllers.js"></script>
   </head>
   <link rel="stylesheet" type="text/css" href="assets/css/quickcast.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/account.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
   <body>
-    <div class="container">
-      <div class="pull-right">
-        <a href="" class="btn btn-primary">Login</a>
-        <a href="" class="btn btn-info">Sign Up</a>
-      </div>
-    </div>
-    <div class="container">
-      <h1 class="hello-world">Account Index</h1>
-    </div>
+    <div ui-view="view"></div>
   </body>
 </html>

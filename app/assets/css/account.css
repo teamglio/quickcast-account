@@ -1,0 +1,73 @@
+.welcome-view {
+  height: 100%;
+  width: 100%;
+  background: url(../img/earphones.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgba(255,255,255,0.7);
+  position: relative;
+}
+.welcome-view.overlay:before {
+  content: '';
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+.welcome-view h1 {
+  font-size: 75px;
+  border-bottom: 1px solid rgba(255,255,255,0.7);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.welcome-view .form-control {
+  display: block;
+  margin: 0;
+  padding: 0 0 0.15em;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgba(255,255,255,0.2);
+  background-color: transparent;
+  color: #ffffff;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-size: 1.5em;
+  border-radius: 0;
+  box-shadow: none;
+  height: 80px;
+  font-size: 40px;
+}
+.welcome-view .form-control:focus {
+  outline: none;
+  border-bottom: 2px solid rgba(255,255,255,0.7);
+}
+
+.welcome-view .form-control::-webkit-input-placeholder {
+  color: rgba(255,255,255,0.3) !important;
+}
+.welcome-view .form-control.ng-valid {
+  border-bottom: 2px solid rgba(0,172,101,0.5);
+}
+.welcome-view .form-control.ng-invalid {
+  color: rgba(233,102,44,0.8);
+}
+.welcome-view .icon-logo {
+  padding-top: 20px;
+}
+.welcome-view a {
+  color: #ffffff;
+}
+.welcome-view a:hover {
+  color: #cccccc;
+  text-decoration: none;
+}
+.welcome-view [ui-view].ng-enter {
+  -webkit-animation:0.8s fadeInUp;
+  -moz-animation:0.8s fadeInUp;
+  -o-animation:0.8s fadeInUp;
+  animation:0.8s fadeInUp;
+}
